@@ -1,0 +1,6 @@
+{
+    "token": "ENTER API TOKEN",
+    "clientId": "ENTER CLIENT ID",
+    "internalAPI" : "http://localhost:3000",
+    "websiteURL" : "http://localhost:3006"
+}

@@ -1,0 +1,15 @@
+services:
+  discord:
+    build: "./Price Bot Discord Service"
+    ports:
+      - "5000"
+  web:
+    build: "./price-bot-webpage"
+    ports:
+      - "3006:3006"
+  api:
+    build: "./Price Bot API"
+    ports:
+      - "3000:3000"
+  scraper:
+    build: "./Python Web Scraper/PythonWebScraper"

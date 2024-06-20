@@ -1,0 +1,10 @@
+FROM python:3
+
+WORKDIR /usr/app
+
+COPY ./PythonWebScraper/requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD [ "python", "./PythonWebScraper/main.py" ]

@@ -1,0 +1,16 @@
+{
+  "name": "price-bot-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "cors": "^2.8.5",
+    "pg": "^8.11.1"
+  }
+}
